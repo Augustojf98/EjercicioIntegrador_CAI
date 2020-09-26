@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1022
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABM_Facultad_Consola", "ABM_Facultad_Consola\ABM_Facultad_Consola.csproj", "{AEB19B98-B06F-45C2-90CB-3D523240702D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABM_Facultad_CapaDatos", "ABM_Facultad_CapaDatos1\ABM_Facultad_CapaDatos.csproj", "{5D9E89D7-28F6-422B-835C-BF08F1AE4269}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AEB19B98-B06F-45C2-90CB-3D523240702D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB19B98-B06F-45C2-90CB-3D523240702D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB19B98-B06F-45C2-90CB-3D523240702D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9E89D7-28F6-422B-835C-BF08F1AE4269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9E89D7-28F6-422B-835C-BF08F1AE4269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9E89D7-28F6-422B-835C-BF08F1AE4269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9E89D7-28F6-422B-835C-BF08F1AE4269}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

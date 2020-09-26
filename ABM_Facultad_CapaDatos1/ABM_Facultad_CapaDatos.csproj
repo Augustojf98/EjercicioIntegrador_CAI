@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AEB19B98-B06F-45C2-90CB-3D523240702D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>ABM_Facultad_Consola</RootNamespace>
-    <AssemblyName>ABM_Facultad_Consola</AssemblyName>
+    <ProjectGuid>{5D9E89D7-28F6-422B-835C-BF08F1AE4269}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ABM_Facultad_CapaDatos1</RootNamespace>
+    <AssemblyName>ABM_Facultad_CapaDatos1</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,17 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Alumno.cs" />
+    <Compile Include="Bedel.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Directivo.cs" />
+    <Compile Include="Docente.cs" />
+    <Compile Include="Empleado.cs" />
+    <Compile Include="Facultad.cs" />
+    <Compile Include="Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ABM_Facultad_CapaDatos1\ABM_Facultad_CapaDatos.csproj">
-      <Project>{5d9e89d7-28f6-422b-835c-bf08f1ae4269}</Project>
-      <Name>ABM_Facultad_CapaDatos</Name>
-    </ProjectReference>
+    <Compile Include="Salario.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
