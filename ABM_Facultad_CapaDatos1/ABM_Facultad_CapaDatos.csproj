@@ -41,15 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alumno.cs" />
-    <Compile Include="Bedel.cs" />
-    <Compile Include="Directivo.cs" />
-    <Compile Include="Docente.cs" />
-    <Compile Include="Empleado.cs" />
-    <Compile Include="Facultad.cs" />
-    <Compile Include="Persona.cs" />
+    <Compile Include="Classes\Alumno.cs" />
+    <Compile Include="Classes\Bedel.cs" />
+    <Compile Include="Classes\Directivo.cs" />
+    <Compile Include="Classes\Docente.cs" />
+    <Compile Include="Classes\Abstracts\Empleado.cs" />
+    <Compile Include="Classes\Facultad.cs" />
+    <Compile Include="Classes\Abstracts\Persona.cs" />
+    <Compile Include="Exceptions\AlumnoInvalidoException.cs" />
+    <Compile Include="Exceptions\FechaIngresoInvalidaException.cs" />
+    <Compile Include="Exceptions\FechaNacInvalidaException.cs" />
+    <Compile Include="Exceptions\EmpleadoInvalidoException.cs" />
+    <Compile Include="Exceptions\SinAlumnosException.cs" />
+    <Compile Include="Exceptions\SinEmpleadosException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Salario.cs" />
+    <Compile Include="Classes\Salario.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
