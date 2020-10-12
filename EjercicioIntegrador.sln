@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.1022
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABM_Facultad_Consola", "ABM_Facultad_Consola\ABM_Facultad_Consola.csproj", "{AEB19B98-B06F-45C2-90CB-3D523240702D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABM_Facultad_CapaDatos", "ABM_Facultad_CapaDatos1\ABM_Facultad_CapaDatos.csproj", "{5D9E89D7-28F6-422B-835C-BF08F1AE4269}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABM_Facultad_CapaDatos", "ABM_Facultad_CapaDatos\ABM_Facultad_CapaDatos.csproj", "{5D9E89D7-28F6-422B-835C-BF08F1AE4269}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

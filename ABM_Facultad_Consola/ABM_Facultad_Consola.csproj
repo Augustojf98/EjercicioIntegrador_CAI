@@ -51,7 +51,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ABM_Facultad_CapaDatos1\ABM_Facultad_CapaDatos.csproj">
+    <ProjectReference Include="..\ABM_Facultad_CapaDatos\ABM_Facultad_CapaDatos.csproj">
       <Project>{5d9e89d7-28f6-422b-835c-bf08f1ae4269}</Project>
       <Name>ABM_Facultad_CapaDatos</Name>
     </ProjectReference>
